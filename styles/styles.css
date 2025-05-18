@@ -40,14 +40,13 @@ aside {
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-footer{
+footer {
     margin-top: 15px;
     border-top: 1px solid rgb(0 0 0 / 0.2);
     text-align: center;
-    
 }
