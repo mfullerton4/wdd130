@@ -176,3 +176,76 @@ h1 {
     width: 40px;
     margin: 0 10px
 }
+
+.Contact-Information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left,
+.right,
+.map-container {
+    width: 30%;
+}
+
+.map-container {
+    margin-top: -190px;
+    width: 100%;
+}
+
+.greeting {
+    text-align: center;
+}
+
+.employee img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5px;
+}
+
+.inquiries {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: .75rem;
+    font-size: 1.2rem;
+}
