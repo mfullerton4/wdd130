@@ -193,8 +193,7 @@ h1 {
 }
 
 .left,
-.right,
-.map-container {
+.right {
     width: 30%;
 }
 
