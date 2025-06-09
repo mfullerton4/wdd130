@@ -57,7 +57,10 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
+h3 {
+    font-family: var(--body-font);
+    color: var(--primary-color)
+}
 nav,
 p,
 section,
@@ -107,6 +110,12 @@ h1 {
     /*white text - make sure there is enough contrast with the background-color*/
 }
 
+.home-header {
+    font-family: var(--body-font);
+    background-color: var(--accent1-color);
+    color: #fff;
+    opacity: 0.7;
+}
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -247,4 +256,14 @@ h1 {
     border: none;
     border-radius: .75rem;
     font-size: 1.2rem;
+}
+
+.home-body {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+.home-body img {
+    width: 200px;
+    height: 200px
 }
