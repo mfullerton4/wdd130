@@ -267,3 +267,30 @@ h1 {
     width: 200px;
     height: 200px
 }
+
+.trips-body {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    gap: 20px;
+}
+
+.trips-body img {
+    width: 200px;
+    height: 200px;
+}
+
+.trips-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.trips-table th,
+.trips-table td {
+    text-align: center;
+}
